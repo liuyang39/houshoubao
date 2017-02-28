@@ -4,30 +4,23 @@ import VueResource from 'vue-resource'
 import App from './App.vue'
 
 import Phone from './components/phone//phone.vue'
-// import PhoneType from './components/phone/phonetype.vue'
-// import Plat from './components/plat/plat.vue'
+import Plat from './components/plat//plat.vue'
 
-// new Vue({
-//   el: 'body',
-//   components: { App }
-// })
 Vue.use(VueRouter);
 Vue.use(VueResource);
 
 var router = new VueRouter();
 
-router.map({
-	// 'plat':｛
-    // 	component: Plat,
-    // ｝
-    
+router.map({   
     'phone': {
+        name: 'phone',
         component: Phone,
         
     },
-    // 'plat': {
-    // 	component: Plat,
-    // }
+    'plat': {
+         name: 'plat',
+    	component: Plat ,
+    }
     
 })
 

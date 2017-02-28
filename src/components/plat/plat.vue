@@ -1,10 +1,6 @@
 <template>
-	<div id="list-right">
-		<div id="srcollR">
-		   	<ul>
-		   		<li v-for="item in items" class="item">{{item.phone}}</li>
-		   	</ul>
-	   </div>
+	<div>
+		我是平板；
 	</div>
    
 
@@ -13,27 +9,12 @@
 
 <script>
 	export default{
-		data(){
-			return {
-				items: [],
-			}
-		},
-		methods(){
-            
-        },
-        ready(){
-        	this.$http.get('/src/json/phone.json').then(function(res) {
-                console.log(res);
-
-
-                this.items = res.body;
-            })
-        }
+		
 	}
 </script>
 
 <style type="text/css">
-	#list-right{
+	/*#list-right{
 		width: 0.80rem;
 		position: absolute;
 		top: 0.60rem;
@@ -58,5 +39,5 @@
 		overflow: hidden;
 		white-space: nowrap;
 		text-overflow: ellipsis;
-	}
+	}*/
 </style>

@@ -6,7 +6,6 @@
 		   	</ul>
 	   </div>
 	</div>
-    <router-view></router-view>
     <div id="list-right">
 		<div id="srcollR">
 		   	<ul>
@@ -14,9 +13,6 @@
 		   	</ul>
 	   </div>
 	</div>
-    <router-view></router-view>
-   
-
 </template>
 
 
@@ -33,7 +29,6 @@
             click(index){
             	this.id = index;
             	this.$http.get('/src/json/phone.json').then(function(res) {
-	                // console.log(res);
 	                this.itemsR = res.body[index];
 	            })
             }
@@ -103,6 +98,8 @@
 		overflow: auto;
 	}
 	#list-right ul{
+		width: 2.40rem;
+		background: #fff;
 	}
 	#list-right li.item{
 		font-size: 0.14rem;
@@ -114,5 +111,7 @@
 		overflow: hidden;
 		white-space: nowrap;
 		text-overflow: ellipsis;
+		background: #fff;
+		width: 2.40rem;
 	}
 </style>

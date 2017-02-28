@@ -32,13 +32,13 @@ body{font-size: 0.14rem; min-width: 320px; max-width: 740px; min-height: 100%; b
 
 /*头部样式*/
 .m-topbar{
-	height: 0.42rem;
+    height: 0.42rem;
     background-color: #f9be00;
     position: relative;
 }
 
 .logo{
-	width: 0.75rem;
+    width: 0.75rem;
     height: 0.22rem;
     position: absolute;
     left: 0.15rem;
@@ -52,7 +52,7 @@ body{font-size: 0.14rem; min-width: 320px; max-width: 740px; min-height: 100%; b
 }
 
 .list{
-	display: block;
+    display: block;
     font-size: 0;
     width: .36rem;
     /* margin: .484375rem auto 0; */
@@ -64,32 +64,32 @@ body{font-size: 0.14rem; min-width: 320px; max-width: 740px; min-height: 100%; b
     /* padding-top: .2rem; */
 }
 .line{
-	position: absolute;
-	width: .2rem;
+    position: absolute;
+    width: .2rem;
 }
 .line.top{
-	top: .12rem;
+    top: .12rem;
 }
 .line.mid{
-	top: .2rem;
+    top: .2rem;
 }
 .line.btm{
-	top: .28rem;
+    top: .28rem;
 }
 
 
 /*banner样式*/
 .m-banner{
-	height: 1.02rem;
-	position: relative;
+    height: 1.02rem;
+    position: relative;
 }
 .m-banner img{
-	width: 100%;
-	height: 1.02rem;
-	display: block;
+    width: 100%;
+    height: 1.02rem;
+    display: block;
 }
 .m-banner .search{
-	width: 2.28rem;
+    width: 2.28rem;
     height: 0.29rem;
     line-height: 0.29rem;
     background-color: #fff;
@@ -106,5 +106,5 @@ body{font-size: 0.14rem; min-width: 320px; max-width: 740px; min-height: 100%; b
 
 }
 .m-banner .search::before{
-	
+    
 }
