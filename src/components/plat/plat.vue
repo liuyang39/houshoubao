@@ -6,7 +6,7 @@
 	</div>
     <div id="plat-right">
     	<ul>
-    	<li  v-for="item in items" class="item">{{$index+1}}&nbsp;&nbsp;{{item}}</li>
+    	<li  v-for="item in items" class="item"><span>{{$index+1}}</span>{{item}}</li>
     	</ul>
     </div>
 
@@ -76,9 +76,28 @@
 		white-space: nowrap;
 		text-overflow: ellipsis;
 		text-align: left;
-		text-indent: .2rem;
 	}
-	#plat-right li.item:gt(3){
-
+	#plat-right li.item span{
+		display: block;
+    float: left;
+    min-width: 0.15rem;
+    height: 0.15rem;
+    line-height: 0.15rem;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0.14rem 0.08rem 0.14rem 0.17rem;
+	}
+	#plat-right li.item:nth-child(1) span{
+		background-color: #f9be00;
+        color: #fff;
+	}
+	#plat-right  li.item:nth-child(2) span{
+		background-color: #f9be00;
+        color: #fff;
+	}
+	#plat-right  li.item:nth-child(3) span{
+		background-color: #f9be00;
+        color: #fff;
 	}
 </style>
