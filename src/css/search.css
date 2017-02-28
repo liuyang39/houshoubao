@@ -1,0 +1,62 @@
+
+/*回收类型头部*/
+.m-type{
+	height: 0.60rem;
+	overflow: hidden;
+	position: relative;
+	border-bottom: 1px solid #e1e1e1;
+}
+.m-type .type{
+	width: 1.30rem;
+	height: 0.30rem;
+	line-height: 0.30rem;
+	border: 1px solid #f9be00;
+    margin: 0.15rem auto;
+    border-radius: 8px;
+}
+.m-type .type .act{
+	background-color: #f9be00;
+	color: #fff;
+}
+.m-type .type .phone{
+	border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.m-type .type .plat{
+	border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.m-type .type a{
+	float: left;
+	width: 50%;
+	font-size: 0.12rem;
+	height: 0.30rem;
+	line-height: 0.30rem;
+	text-align: center;
+	color: #333;
+}
+.m-type .box-search{
+	width: .36rem;
+	height: 0.36rem;
+	display: block;
+	position: absolute;
+	right: 0.26rem;
+	top: 22%;
+}
+.m-type .box-search .t-search{
+	width: 0.16rem;
+	height: 0.16rem;
+	background: url(../images/sprite_1.png);
+	background-size: 1.5rem 3.84rem;
+    background-position: 0 -0.22rem;
+    position: absolute;
+    right: 0.1rem;
+    top: 50%;
+/*    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);*/
+    transform: translateY(-50%);
+}
+
+
+/*回收类型分类*/

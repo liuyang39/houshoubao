@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "vue-resource": "^1.0.3"
+  },
+  "devDependencies": {
+    "vue-router": "^2.3.0"
+  }
+}

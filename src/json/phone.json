@@ -1,0 +1,90 @@
+[
+	{
+		"phone":"苹果",
+		"phonetype": ["iPhone 7 Plus", "iPhone 7", "iPhone 6s Plus", "iPhone 6s", "iPhone 6 Plus", "iPhone 6", "iPhone SE", "iPhone 5s", "iPhone 5c", "iPhone 5", "iPhone 4s", "iPhone 4", "iPad Pro", "iPad Air2", "iPad mini4", "iPad Air", "iPad mini3", "iPad mini2", "iPad4", "iPad3i", "iPad mini", "iPad2", "iPad1", "iPhone 3GS"]
+},
+	{
+		"phone":"HTC",
+		"phonetype": ["iPhone 77 Plus", "iPhone 7", "iPhone 6s Plus", "iPhone 6s", "iPhone 6 Plus", "iPhone 6", "iPhone SE", "iPhone 5s", "iPhone 5c", "iPhone 5", "iPhone 4s", "iPhone 4", "iPad Pro", "iPad Air2", "iPad mini4", "iPad Air", "iPad mini3", "iPad mini2", "iPad4", "iPad3i", "iPad mini", "iPad2", "iPad1", "iPhone 3GS"]
+},
+	{
+		"phone":"OPPO",
+		"phonetype": ["OPPO R9s Plus"]
+},
+	{
+		"phone":"vivo",
+		"phonetype": ["vivo Xplay6", "vivo X9 Plus", "vivo X9", "vivo Xplay5", "vivo X7 Plus", "vivo X7", "vivo X6S Plus", "vivo Y67", "vivo X6 Plus", "vivo X6S", "vivo Y66", "vivo X6s", "vivo V3Max", "vivo Y55", "vivo V3", "vivo X5 Pro", "vivo Y51A", "vivo Y37A", "vivo X5Max", "vivo Y51"]
+},
+	{
+		"phone":"华为",
+		"phonetype": ["华为 Mate 9 Plus"]
+},
+	{
+		"phone":"酷派",
+		"phonetype": ["酷派 锋尚Max"]
+},
+	{
+		"phone":"联想",
+		"phonetype": ["ZUK Edge"]
+},
+	{
+		"phone":"魅族",
+		"phonetype": ["魅族 Pro 6 Plus"]
+},
+	{
+		"phone":"摩托罗拉",
+		"phonetype": ["Moto Z"]
+},
+	{
+		"phone":"诺基亚",
+		"phonetype": ["微软 Lumia 950 XL"]
+},
+	{
+		"phone":"三星",
+		"phonetype": ["三星 Galaxy S3"]
+},
+	{
+		"phone":"索尼",
+		"phonetype": ["索尼 Xperia XZ"]
+},
+	{
+		"phone":"小米",
+		"phonetype": ["小米MIX"]
+},
+	{
+		"phone":"中兴",
+		"phonetype": ["中兴 天机7"]
+},
+	{
+		"phone":"金立",
+		"phonetype": ["金立 M2017"]
+},
+	{
+		"phone":"努比亚",
+		"phonetype": ["nubia Z11"]
+},
+	{
+		"phone":"乐视",
+		"phonetype": ["乐Pro 3"]
+},
+	{
+		"phone":"荣耀",
+		"phonetype": ["荣耀 Magic"]
+},
+	{
+		"phone":"锤子",
+		"phonetype": ["锤子 Smartisan M1L"]
+},
+	{
+		"phone":"360",
+		"phonetype": ["360手机 Q5 Plus"]
+},
+	{
+		"phone":"一加",
+		"phonetype": ["一加手机3T"]
+},
+	{
+		"phone":"美图",
+		"phonetype": ["美图 T8"]
+}
+]

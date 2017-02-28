@@ -1,0 +1,110 @@
+/* reset */
+html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -webkit-overflow-scrolling: touch;}
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;-webkit-appearance: none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+input[type="button"],input[type="submit"]{-webkit-appearance: none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font:14px/1.14 "PingFang SC","Microsoft YaHei","Hiragino Sans GB W3",Helvetica,"Heiti SC","Droid Sans","Droidsansfallback",sans-serif;color:#333;outline:0;}
+html{font-size: 100px; height: 100%; min-width: 320px;}
+body{font-size: 0.14rem; min-width: 320px; max-width: 740px; min-height: 100%; background-color: #fff; margin-left: auto; margin-right: auto;}
+/*a,a:hover{color:#333;}*/
+
+@media screen and (min-width:321px) and (max-width:359px){html{font-size:112.5px}}
+@media screen and (min-width:361px) and (max-width:375px){html{font-size:117px}}
+@media screen and (min-width:376px) and (max-width:412px){html{font-size:128.75px}}
+@media screen and (min-width:414px) and (max-width:639px){html{font-size:129.375px}}
+
+@media screen and (min-width:750px) and (max-width:799px){html{font-size:231.25px}}
+@media screen and (min-width:800px){html{font-size:231.25px}}
+
+/*头部样式*/
+.m-topbar{
+	height: 0.42rem;
+    background-color: #f9be00;
+    position: relative;
+}
+
+.logo{
+	width: 0.75rem;
+    height: 0.22rem;
+    position: absolute;
+    left: 0.15rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: url(../images/logo.png) no-repeat;
+    background-size: 100%;
+}
+
+.list{
+	display: block;
+    font-size: 0;
+    width: .36rem;
+    /* margin: .484375rem auto 0; */
+    line-height: 0;
+    height: .42rem;
+    position: relative;
+    left: 2.8rem;
+    /* background-color: red; */
+    /* padding-top: .2rem; */
+}
+.line{
+	position: absolute;
+	width: .2rem;
+}
+.line.top{
+	top: .12rem;
+}
+.line.mid{
+	top: .2rem;
+}
+.line.btm{
+	top: .28rem;
+}
+
+
+/*banner样式*/
+.m-banner{
+	height: 1.02rem;
+	position: relative;
+}
+.m-banner img{
+	width: 100%;
+	height: 1.02rem;
+	display: block;
+}
+.m-banner .search{
+	width: 2.28rem;
+    height: 0.29rem;
+    line-height: 0.29rem;
+    background-color: #fff;
+    border: 1px solid #fabd00;
+    border-radius: 30px;
+    display: block;
+    z-index: 99;
+    position: absolute;
+    bottom: -0.155rem;
+    left: 50%;
+    transform: translate(-50%); 
+    font-size: 0.11rem;
+    color: #999;
+
+}
+.m-banner .search::before{
+	
+}
