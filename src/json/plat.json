@@ -1,6 +1,10 @@
-[{
-
-}, 
 {
+	"plat":["ipad1","ipad21","ipad3","ipad4","ipad mini 1",
+		"ipad mini 2","ipad mini 3","ipad mini 4","ipad air 1",
+		"ipad air 2","华为1","华为2","华为3","华为4","华为5",
+		"三星1","三星2",
+		"三星3",
+		"三星4","三星5","三星6"
 
-}]
+	    ]
+}

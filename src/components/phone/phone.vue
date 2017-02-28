@@ -48,13 +48,14 @@
 </script>
 
 <style type="text/css">
+
 	#list-left{
 		width: 0.80rem;
 		position: absolute;
 		top: 0.60rem;
 		bottom: 0;
 		overflow: auto;
-		height: 5.08rem;
+		height: 100%;
 	}
 	 ::-webkit-scrollbar{
 	 	width:0px
@@ -64,6 +65,7 @@
 	}
 	#list-left ul{
 		width: 0.80rem;
+		
 	}
 	
 	#list-left li.item{
@@ -92,7 +94,7 @@
 		left: 0.80rem;
 		right: 0;
 		overflow: auto;
-		height: 5.08rem;
+		height: 100%;
 	}
 	#list-right #srcollR{
 		overflow: auto;
