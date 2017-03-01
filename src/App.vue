@@ -97,6 +97,7 @@ export default {
   },
   ready(){
      var hrefString = window.location.href.split('#!/')[1];
+     console.log(hrefString);
      if(hrefString == 'phone'){
        this.isB= false;
        this.isA = true;
@@ -105,18 +106,21 @@ export default {
        this.isA= false;
        this.isB = true;  
      }
-  }
+     var that = this;
+     window.onpopstate =function(){
+        if (!history.state) {
+          // 要显示主页
+          that.isTrue =false;
+        } else {
+          // 要显示搜索页
+         that.isTrue =true;
+        }
+      }
+  },
+  
 }
 
-window.onpopstate =function(){
-  if (!history.state) {
-    // 要显示主页
-    this.isTrue =false;
-  } else {
-    // 要显示搜索页
-   this.isTrue =true;
-  }
-}
+
 </script>
 
 
@@ -243,4 +247,6 @@ body {
 .hot-list-item:nth-child(3) .hot-list-index {
     background-color: #58b7e3;
 }
+
+
 </style>
